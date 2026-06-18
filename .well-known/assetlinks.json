@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "packae_name": "io.github.denisky19.twa",
+      "sha256_cert_fingerprints": [
+        "43:71:E2:C2:6C:6B:C9:C2:BA:D0:2C:AB:17:26:21:AB:74:D6:4C:85:D0:76:B9:A1:E8:28:C5:F7:65:06:3B:CC"
+      ]
+    }
+  }
+]
