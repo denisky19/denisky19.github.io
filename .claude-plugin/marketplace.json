@@ -1,0 +1,17 @@
+{
+  "name": "denisky-skills",
+  "owner": {
+    "name": "denisky19"
+  },
+  "metadata": {
+    "description": "Skills de denisky19 para Claude Code y Claude."
+  },
+  "plugins": [
+    {
+      "name": "estudio-negocio",
+      "source": "./plugins/estudio-negocio",
+      "description": "Valida ideas de negocio investigando en Internet: mercado, cliente, palabras clave, competencia, DAFO, viabilidad económica, marketing, producto, distribución y legal. Informes por carpetas para humanos e IAs.",
+      "version": "1.0.0"
+    }
+  ]
+}

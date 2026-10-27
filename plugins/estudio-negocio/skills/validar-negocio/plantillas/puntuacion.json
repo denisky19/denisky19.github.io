@@ -1,0 +1,20 @@
+{
+  "_instrucciones": "Puntúa cada dimensión de 0 a 10 con las anclas de modulos/11-riesgos-veredicto.md. Si dudas entre dos niveles, el más bajo. confianza: alta|media|baja. evidencia: IDs de hallazgos y fuentes. Deja puntuacion en null si no hay base para puntuar.",
+  "ambicion": "autoempleo | pyme | escalar",
+  "modelo_de_pago": true,
+  "bloqueo_legal": false,
+  "fuentes_solidas": 0,
+  "dimensiones": {
+    "dolor":        {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "demanda":      {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "mercado":      {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "hueco":        {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "pago":         {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "economia":     {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "distribucion": {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []},
+    "ejecucion":    {"puntuacion": null, "confianza": "baja", "justificacion": "", "evidencia": []}
+  },
+  "argumento_a_favor": "",
+  "argumento_en_contra": "",
+  "que_cambiaria_el_veredicto": ""
+}

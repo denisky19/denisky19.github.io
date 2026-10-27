@@ -1,0 +1,60 @@
+{
+  "_instrucciones": "Supuestos del modelo económico. Cifras SIN IVA. Etiqueta el origen de cada supuesto en 'origen_supuestos' (FUNDADOR, DATO F#, ESTIMACION F#, HIPOTESIS). Confírmalos con el usuario antes de ejecutar modelo_financiero.py. Borra los campos del tipo que no uses.",
+  "moneda": "EUR",
+  "meses": 36,
+  "mes_inicio": 1,
+  "tipo": "transaccional",
+
+  "precio_medio_sin_iva": 4.5,
+  "coste_variable_unitario": 1.3,
+  "comision_cobro_pct": 1.2,
+
+  "ventas_mes_inicial": 2400,
+  "crecimiento_mensual_pct": 3,
+  "capacidad_maxima_mes": 6500,
+  "coste_captacion_por_venta": 0,
+  "rampa_inicial": [0.5, 0.7, 0.85],
+  "estacionalidad": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.8, 0.7, 1.0, 1.0, 1.0, 1.1],
+
+  "_suscripcion_ejemplo": {
+    "tipo": "suscripcion",
+    "clientes_nuevos_mes_inicial": 30,
+    "crecimiento_nuevos_mensual_pct": 5,
+    "churn_mensual_pct": 4,
+    "cac": 45
+  },
+
+  "costes_fijos_mensuales": {
+    "alquiler": 1500,
+    "personal_con_ss": 4200,
+    "autonomo_y_sueldo_fundador": 1900,
+    "suministros": 450,
+    "gestoria_seguros": 250,
+    "software_tpv": 80,
+    "marketing_fijo": 300,
+    "otros": 200
+  },
+  "inversion_inicial": {
+    "obra_acondicionamiento": 18000,
+    "equipamiento": 14000,
+    "mobiliario": 6000,
+    "fianzas_alquiler": 4500,
+    "stock_inicial": 1500,
+    "licencias_constitucion": 1500,
+    "marca_web_lanzamiento": 2500
+  },
+  "meses_colchon": 3,
+
+  "escenarios": {
+    "pesimista": {"volumen": 0.6, "precio": 0.95, "coste_variable": 1.1, "costes_fijos": 1.05},
+    "base": {},
+    "optimista": {"volumen": 1.3, "coste_variable": 0.95}
+  },
+
+  "origen_supuestos": {
+    "precio_medio_sin_iva": "HIPOTESIS: ticket medio de competidores (F#)",
+    "ventas_mes_inicial": "HIPOTESIS: cálculo de capacidad y flujo (ver 01-mercado)",
+    "alquiler": "DATO F#: anuncios de locales en la zona"
+  },
+  "notas_supuestos": "Ejemplo ilustrativo con cifras inventadas para mostrar el formato. Sustitúyelas por las del estudio."
+}

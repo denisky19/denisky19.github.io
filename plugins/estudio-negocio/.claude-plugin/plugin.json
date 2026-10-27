@@ -1,0 +1,9 @@
+{
+  "name": "estudio-negocio",
+  "version": "1.0.0",
+  "description": "Estudio de mercado y viabilidad de ideas de negocio en español: entrevista inicial, investigación web con fuentes y conectores gratuitos, DAFO/CAME, modelo financiero, veredicto con experimentos e informes para humanos (Markdown + HTML) y para IAs (JSON).",
+  "author": {
+    "name": "denisky19"
+  },
+  "keywords": ["estudio de mercado", "validar idea", "DAFO", "viabilidad", "competencia", "palabras clave", "plan de empresa", "market research"]
+}

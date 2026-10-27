@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "ddg": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    },
+    "reddit-mcp-buddy": {
+      "command": "npx",
+      "args": ["-y", "reddit-mcp-buddy"]
+    },
+    "free-seo": {
+      "command": "uv",
+      "args": ["run", "--directory", "/RUTA/A/free-seo-mcp", "free-seo-mcp"]
+    },
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp"
+    }
+  }
+}

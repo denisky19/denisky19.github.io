@@ -1,0 +1,13 @@
+# Experimento #{{N}}: {{NOMBRE}}
+
+- **Hipótesis que prueba:** Creemos que [segmento] [hará/pagará/…] porque […].
+- **Por qué es crítica:** (variable de sensibilidad o dimensión con poca confianza)
+- **Método paso a paso:**
+  1. …
+  2. …
+- **Presupuesto máximo:** … € · **Duración:** … días
+- **Métrica:** …
+- **✅ Éxito si:** … (número concreto)
+- **🛑 Parar o pivotar si:** … (número concreto)
+- **Qué haremos con el resultado:** si sale bien → …; si sale mal → …
+- **Materiales:** (textos de anuncio, landing, guion, plantilla…)
