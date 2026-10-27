@@ -2,7 +2,7 @@
 """Genera enlaces con UTM coherentes para una campaña y los guarda en CSV.
 
 Ejemplo:
-  python3 utm.py --base https://beatandbite.com/bodas --campana bodas-2027 \
+  python3 utm.py --base https://ejemplo.com/bodas --campana bodas-2027 \
       --fuentes instagram:paid_social,facebook:paid_social,google:cpc,bodasnet:referral,bio:social \
       --contenidos video-boda-1,carrusel-packs --salida utm.csv
   python3 utm.py --selftest
