@@ -117,3 +117,26 @@ Identifica el arquetipo en la entrevista. Hay negocios mixtos (una tienda físic
 - **Métricas**: tamaño y crecimiento de la audiencia, conversión de la lista a la compra, ticket, reembolsos, LTV.
 - **Fracasos típicos**: no tener audiencia, competir con contenido gratis de calidad, depender del algoritmo de una plataforma.
 - **Canales**: YouTube, TikTok o Instagram, newsletter, SEO, colaboraciones, webinars, afiliados.
+
+## I. Música, DJ, promotora y eventos
+
+- **Lo que decide**:
+  - Diferenciación artística y estética reconocible.
+  - Acceso a venues (relaciones con programadores).
+  - Ocupación de las fechas (temporada y fines de semana).
+  - Mezcla de ingresos: eventos propios (entradas y barra), cachés en venues, bodas y eventos privados, patrocinio.
+  - Coste del equipo y de las personas por evento.
+- **Investigación clave**:
+  - Agenda de clubs y venues de la zona (RA, Fourvenues, Xceed, Dice) y promotoras con el mismo estilo.
+  - Precios de DJ para bodas y eventos en la zona (Bodas.net, Musiqua, webs de DJs).
+  - Número de bodas por provincia (INE, estadística de matrimonios) y bodas de destino.
+  - Fincas y planners.
+  - Normativa de horarios, sonido y licencias del venue.
+- **Métricas**: eventos al mes, precio medio por evento, margen por evento (cachés, equipo, transporte), tasa de conversión de presupuestos a contratos, % de fechas de temporada vendidas, asistentes y consumo medio en barra (para venues), recurrencia de venues.
+- **Fracasos típicos**:
+  - Depender de un solo venue.
+  - Precios por debajo del coste real (equipo, horas, transporte).
+  - Estacionalidad sin colchón.
+  - Marca indefinida ("pinchamos de todo").
+  - No grabar ni documentar los eventos (sin pruebas no hay ventas).
+- **Canales**: relaciones con venues y planners, Instagram y TikTok con vídeo real, Google y Bodas.net para bodas, sets grabados, comunidad (WhatsApp o email) y colaboraciones con artistas.

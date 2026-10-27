@@ -115,6 +115,12 @@ Si hay conectores de Google Drive, Notion o Claude Docs, **ofrece** guardar ahí
 ### Paso 8 — Entrega en el chat
 Termina con un panel corto: veredicto y puntuación, las 3 señales más fuertes a favor, los 3 riesgos principales, lo que sigue sin validar, los 3 primeros experimentos (coste, plazo y umbral de éxito) y la ruta de los archivos. Sin relleno.
 
+### Paso 9 — Pasar a la acción (si el usuario quiere ejecutar)
+El estudio alimenta tres skills de ejecución del mismo plugin. Todas leen `ia/contexto-ia.md`:
+- **`oferta-y-web`**: packs, precios, condiciones, textos y datos de la web, dossier.
+- **`prospeccion-clientes`**: base de cuentas B2B (venues, empresas, planners…) con contactos públicos, prioridad, secuencias y CRM.
+- **`campanas-marketing`**: campañas de captación y promoción, creatividades, calendario, medición y optimización semanal.
+
 ## Reglas de evidencia (innegociables)
 
 1. **Etiqueta cada afirmación importante**:

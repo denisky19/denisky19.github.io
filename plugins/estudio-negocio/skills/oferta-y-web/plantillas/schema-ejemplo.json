@@ -1,0 +1,14 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EntertainmentBusiness",
+  "name": "{{MARCA}}",
+  "url": "{{URL}}",
+  "email": "{{EMAIL}}",
+  "telephone": "{{TELEFONO}}",
+  "areaServed": ["{{ZONA_1}}", "{{ZONA_2}}"],
+  "sameAs": ["{{INSTAGRAM}}", "{{YOUTUBE}}"],
+  "makesOffer": [
+    {"@type": "Offer", "name": "{{PACK_1}}", "priceCurrency": "EUR", "price": "{{PRECIO_DESDE_1}}",
+     "itemOffered": {"@type": "Service", "name": "{{SERVICIO_1}}"}}
+  ]
+}

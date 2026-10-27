@@ -1,7 +1,7 @@
 {
   "name": "estudio-negocio",
-  "version": "1.0.0",
-  "description": "Estudio de mercado y viabilidad de ideas de negocio en español: entrevista inicial, investigación web con fuentes y conectores gratuitos, DAFO/CAME, modelo financiero, veredicto con experimentos e informes para humanos (Markdown + HTML) y para IAs (JSON).",
+  "version": "1.1.0",
+  "description": "Validar y lanzar negocios en español: estudio de mercado y viabilidad con veredicto, oferta y precios con textos de la web, prospección B2B de venues y cuentas con contactos públicos y CRM, y campañas de marketing diseñadas y medidas. Informes para humanos y para IAs.",
   "author": {
     "name": "denisky19"
   },

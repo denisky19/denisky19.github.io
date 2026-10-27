@@ -1,4 +1,22 @@
-# estudio-negocio · skill `validar-negocio`
+# estudio-negocio: validar y lanzar negocios
+
+Cuatro skills que cubren el ciclo completo:
+
+| Skill | Para qué | Ejemplo de prompt |
+|---|---|---|
+| **`validar-negocio`** | ¿Funciona la idea? Mercado, cliente, keywords, competencia, DAFO, viabilidad, veredicto | `Tengo una idea… ¿funcionaría?` |
+| **`oferta-y-web`** | Qué vender y a qué precio. Packs, condiciones, textos y datos de la web, dossier, EPK | `Diseña los packs y precios y prepara los textos de la web` |
+| **`prospeccion-clientes`** | Encontrar **todas** las cuentas B2B (venues, clubs, fincas, hoteles, planners, empresas) con contactos públicos, quién decide y cómo acceder; prioridad, secuencias y CRM | `Busca todos los clubs y beach clubs de Cataluña que encajen y prepárame la campaña de contacto` |
+| **`campanas-marketing`** | Diseñar y ejecutar campañas: embudo, canales, creatividades, calendario, UTM y optimización semanal | `Campaña para captar bodas en Girona con 600 € al mes` |
+
+Los scripts de prospección (sin claves de API):
+- `buscar_locales_osm.py`: locales de OpenStreetMap por zona y tipo.
+- `extraer_contactos.py`: emails, teléfonos, redes y razón social publicados en cada web.
+- `crm.py`: unir, puntuar, agenda de seguimientos y embudo.
+
+En campañas, `utm.py`. Todas las pruebas: `./pruebas.sh`.
+
+## `validar-negocio`
 
 Con unos pocos prompts, Claude **investiga en Internet si una idea de negocio funciona** y te deja un estudio completo por carpetas:
 - Mercado.
@@ -42,9 +60,9 @@ Para que te hagas una idea, así queda el panel visual con datos de prueba:
 ```
 (En versiones recientes también vale `/plugin install estudio-negocio --marketplace denisky19/denisky19.github.io`.)
 
-**Claude Code sin plugin**: copia la carpeta `skills/validar-negocio` a `~/.claude/skills/` (para todos tus proyectos) o a `.claude/skills/` (solo un proyecto).
+**Claude Code sin plugin**: copia las carpetas de `skills/` a `~/.claude/skills/` (para todos tus proyectos) o a `.claude/skills/` (solo un proyecto).
 
-**claude.ai / Claude Desktop / Cowork**: descarga `dist/validar-negocio.zip` de este repositorio y súbelo en *Ajustes → Capacidades → Skills*. Activa también la ejecución de código si quieres usar los scripts.
+**claude.ai / Claude Desktop / Cowork**: descarga de `dist/` el zip de cada skill (`validar-negocio.zip`, `oferta-y-web.zip`, `prospeccion-clientes.zip`, `campanas-marketing.zip`) y súbelos en *Ajustes → Capacidades → Skills*. Activa también la ejecución de código si quieres usar los scripts.
 
 ## Cómo usarla: prompts de ejemplo
 
